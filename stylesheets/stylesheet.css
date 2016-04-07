@@ -1,11 +1,15 @@
 body {
     margin: 0;
 }
+.logo-header {
+    height: 20px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAMAAAApB0NrAAAABlBMVEX///+pqalTpKl9AAAAAnRSTlMAGovxNEIAAAAdSURBVDjLY2AAAUaG4UYxDDsfjfp91O+jfqfE7wCzpQCw/dq+qQAAAABJRU5ErkJggg==");    
+}
 .page-header {
-    margin-top: 20px;
     height: 100px;
     text-align: center;
     background: #765;
+    
 }
 .page-header h1 {
     color: #fff;
@@ -20,10 +24,32 @@ body {
     border-right: 2px dotted;
     border-left: 2px dotted;
 }
-.page-content {
-    margin-top: 40px;
-    min-height: 100px;
+.content {
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+    font-size: 0;
+}
+.page-image {
+    min-width: 700px;
+    font-size: 0;
+    display:inline-block;
+    margin: 50px 20px;
+    box-shadow: 0 0 25px gray;
     text-align: center;
-    
-    background: rgba(75, 90, 120, .1);
+    padding: 30px 30px 80px;   
+    text-align: center;
+}
+.button { 
+    display:inline-block;
+    vertical-align:top;
+    margin-top: 280px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: red;
+}
+
+.right-button {
+
 }
