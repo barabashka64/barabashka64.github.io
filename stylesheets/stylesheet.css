@@ -26,6 +26,7 @@ body {
 }
 .content {
     margin: auto;
+    text-align: center;
     width: 1000px;
     height: 600px;
     font-size: 0;
