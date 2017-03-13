@@ -28,8 +28,7 @@ body {
     text-align: center;
     width: 1000px;
     height: 600px;
-    font-size: 0;
-    text-color: black;
+    font: black 20px;
 }
 .page-image {
     min-width: 700px;
