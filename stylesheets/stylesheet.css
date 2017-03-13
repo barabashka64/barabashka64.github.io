@@ -9,7 +9,7 @@ body {
     height: 100px;
     text-align: center;
     background: #765;
-    width: 100px;
+    width: 100%;
 }
 .page-header h1 {
     color: #fff;
