@@ -29,6 +29,7 @@ body {
     width: 1000px;
     height: 600px;
     font-size: 0;
+    text-color: black;
 }
 .page-image {
     min-width: 700px;
